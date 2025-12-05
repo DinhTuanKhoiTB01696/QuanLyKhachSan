@@ -11,21 +11,18 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
     - name: Setup .NET 8.0
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore Xuong04_QLKS/Xuong04_QLKS.sln
-      # hoặc nếu không có .sln thì dùng: dotnet restore Xuong04_QLKS/*.csproj
+    - name: Restore tất cả các project
+      run: dotnet restore Xuong04_QLKS/
 
-    - name: Build project
-      run: dotnet build Xuong04_QLKS/Xuong04_QLKS.sln --no-restore --configuration Release
-      # hoặc: dotnet build Xuong04_QLKS/*.csproj --no-restore --configuration Release
+    - name: Build tất cả các project
+      run: dotnet build Xuong04_QLKS/ --configuration Release --no-restore
 
-    - name: Run tests (nếu có)
-      run: dotnet test Xuong04_QLKS/Xuong04_QLKS.sln --no-build --configuration Release --verbosity normal || echo "Không có test project → bỏ qua"
+    - name: Test (nếu có)
+      run: dotnet test Xuong04_QLKS/ --no-build --configuration Release || echo "Không có test → bỏ qua"
