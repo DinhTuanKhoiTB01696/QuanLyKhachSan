@@ -17,14 +17,14 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'   # nếu dự án bạn là .NET 6 thì đổi thành 6.0.x
+        dotnet-version: '8.0.x'   # hoặc 6.0.x nếu bạn dùng .NET 6
 
     - name: Restore dependencies
-      run: dotnet restore Xuong04_QLKS.sln
+      run: dotnet restore Xuong04_QLKS/Xuong04_QLKS.sln
 
     - name: Build
-      run: dotnet build Xuong04_QLKS.sln --no-restore -c Release
+      run: dotnet build Xuong04_QLKS/Xuong04_QLKS.sln --no-restore -c Release
 
     - name: Test
       run: dotnet test --no-build -c Release --verbosity normal
-      continue-on-error: true   # chưa có test thì vẫn xanh
+      continue-on-error: true
