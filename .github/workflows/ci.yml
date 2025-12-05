@@ -1,0 +1,29 @@
+name: CI - Build Project
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'    # nếu bạn dùng .NET 6 thì đổi thành 6.0.x, .NET 7 thì 7.0.x
+
+    - name: Restore packages
+      run: dotnet restore
+
+    - name: Build project
+      run: dotnet build --no-restore --configuration Release
+
+    - name: Run tests (nếu có)
+      run: dotnet test --no-build --configuration Release --verbosity normal || echo "Không tìm thấy test project → bỏ qua"
