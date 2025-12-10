@@ -75,3 +75,15 @@ C:\Users\phucl\OneDrive\Desktop\NHOM04_QLKS\TB01696_DinhTuanKhoi_QLKS\Xuong04_QL
 C:\Users\phucl\OneDrive\Desktop\NHOM04_QLKS\TB01696_DinhTuanKhoi_QLKS\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\refint\DTO_QLKS.dll
 C:\Users\phucl\OneDrive\Desktop\NHOM04_QLKS\TB01696_DinhTuanKhoi_QLKS\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.pdb
 C:\Users\phucl\OneDrive\Desktop\NHOM04_QLKS\TB01696_DinhTuanKhoi_QLKS\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\ref\DTO_QLKS.dll
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\bin\Debug\net8.0\DTO_QLKS.deps.json
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\bin\Debug\net8.0\DTO_QLKS.dll
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\bin\Debug\net8.0\DTO_QLKS.pdb
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.AssemblyInfoInputs.cache
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.AssemblyInfo.cs
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.csproj.CoreCompileInputs.cache
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.sourcelink.json
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.dll
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\refint\DTO_QLKS.dll
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\DTO_QLKS.pdb
+D:\QLKS\QuanLyKhachSan\Xuong04_QLKS\Xuong04_QLKS\DTO_QLKS\obj\Debug\net8.0\ref\DTO_QLKS.dll

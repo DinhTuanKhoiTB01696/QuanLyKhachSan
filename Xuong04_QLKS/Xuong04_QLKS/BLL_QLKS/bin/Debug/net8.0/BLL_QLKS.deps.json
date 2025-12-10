@@ -432,7 +432,7 @@
         },
         "runtime": {
           "DAL_QLKS.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -440,7 +440,7 @@
       "DTO_QLKS/1.0.0": {
         "runtime": {
           "DTO_QLKS.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
