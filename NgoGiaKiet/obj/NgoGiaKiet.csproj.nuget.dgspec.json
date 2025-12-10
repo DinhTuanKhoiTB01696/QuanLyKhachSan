@@ -1,0 +1,339 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\NgoGiaKiet\\NgoGiaKiet.csproj": {}
+  },
+  "projects": {
+    "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\BLL_QLKS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\BLL_QLKS.csproj",
+        "projectName": "BLL_QLKS",
+        "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\BLL_QLKS.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj"
+              },
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.11.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj",
+        "projectName": "DAL_QLKS",
+        "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.11.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj",
+        "projectName": "DTO_QLKS",
+        "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.11.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\NgoGiaKiet\\NgoGiaKiet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\NgoGiaKiet\\NgoGiaKiet.csproj",
+        "projectName": "NgoGiaKiet",
+        "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\NgoGiaKiet\\NgoGiaKiet.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\NgoGiaKiet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\BLL_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\BLL_QLKS\\BLL_QLKS.csproj"
+              },
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DAL_QLKS\\DAL_QLKS.csproj"
+              },
+              "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj": {
+                "projectPath": "D:\\QuanLyKhachSan\\QuanLyKhachSan\\Xuong04_QLKS\\Xuong04_QLKS\\DTO_QLKS\\DTO_QLKS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
